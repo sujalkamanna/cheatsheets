@@ -1,5 +1,13 @@
 # 🚀 Ultimate DevOps Master Cheatsheet
 
+![DevOps](https://img.shields.io/badge/DevOps-Complete-blue)
+![Linux](https://img.shields.io/badge/Linux-Essentials-orange)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Production--Ready-326ce5)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Automation-success)
+![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-informational)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Made With](https://img.shields.io/badge/Made%20With-Markdown-black)
+
 A **centralized DevOps knowledge base** covering tools, commands, architectures, and best practices used in **real-world DevOps, Cloud, SRE, and Platform Engineering** roles.
 
 This repository is ideal for:
@@ -29,6 +37,61 @@ This repository is ideal for:
 * [Security](#-security--devsecops)
 * [Version Control](#-version-control)
 * [Repository Tree](#-repository-structure-collapsible)
+---
+## 🧭 DevOps Learning Roadmap
+
+Follow this order for **maximum interview readiness**:
+
+1️⃣ **Linux & OS Fundamentals**
+- Linux Commands
+- Package Management
+- SSH
+
+2️⃣ **Version Control**
+- Git (core commands, workflows)
+- GitHub / GitLab
+
+3️⃣ **Scripting & Automation**
+- Bash (daily automation)
+- Python (DevOps scripts)
+
+4️⃣ **Build & Artifact Management**
+- Maven / Gradle / NPM
+- Nexus / Artifactory / Harbor
+
+5️⃣ **CI/CD Pipelines**
+- Jenkins
+- GitHub Actions
+- GitLab CI
+- ArgoCD (GitOps)
+
+6️⃣ **Containerization**
+- Docker
+- Docker Compose
+- Kubernetes
+- Helm & Kustomize
+
+7️⃣ **Cloud Platforms**
+- AWS (EC2, S3, IAM, VPC)
+- Azure / GCP basics
+- Kubernetes on Cloud
+
+8️⃣ **Infrastructure as Code**
+- Terraform
+- CloudFormation
+- Ansible
+
+9️⃣ **Monitoring & Observability**
+- Prometheus
+- Grafana
+- ELK Stack
+- Loki
+
+🔟 **Security & DevSecOps**
+- Trivy
+- Snyk
+- Vault
+- OPA
 
 ---
 
