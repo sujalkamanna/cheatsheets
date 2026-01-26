@@ -22,3 +22,16 @@
         │                                      │
         │  Pod → Container → Application        │
         └──────────────────────────────────────┘
+
+
+# ☸️ Kubernetes
+
+Kubernetes orchestrates containerized applications.
+
+👉 **Detailed notes:**  
+[Kubernetes & Orchestration](../Containerization/README.md)
+
+## Topics
+- Pods, Deployments, Services
+- Helm & Kustomize
+- OpenShift

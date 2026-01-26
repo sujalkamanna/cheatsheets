@@ -1,22 +1,28 @@
 # 📦 Containerization & Orchestration
 
-This section explains container runtimes and orchestration platforms.
+Containerization packages applications with dependencies for consistency.
 
 ## Tools Covered
-- Docker, Podman
+- Docker
+- Podman
 - Kubernetes
-- Helm, Kustomize
+- Helm
+- Kustomize
 - OpenShift
 - Nomad
-- containerd, CRI-O
+- containerd
+- CRI-O
 
-## What You’ll Learn
-- Container lifecycle
+## Key Concepts
+- Containers vs VMs
 - Kubernetes architecture
 - Deployment strategies
-- Production-grade orchestration
+- Scaling and self-healing
 
-## Used In
+## Real-World Usage
 - Microservices
-- Cloud platforms
-- Scalable backend systems
+- Cloud-native apps
+
+## Interview Focus
+- Docker vs Kubernetes
+- Pod vs Deployment

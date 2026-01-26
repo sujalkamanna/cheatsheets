@@ -1,6 +1,6 @@
 # 🔄 CI/CD (Continuous Integration & Delivery)
 
-This section focuses on automating build, test, and deployment pipelines.
+CI/CD automates build, test, and deployment workflows.
 
 ## Tools Covered
 - Jenkins
@@ -9,15 +9,21 @@ This section focuses on automating build, test, and deployment pipelines.
 - ArgoCD
 - Tekton
 - Flux
-- CircleCI, TravisCI, Bamboo, Azure DevOps
+- CircleCI
+- TravisCI
+- Bamboo
+- Azure DevOps
 
-## What You’ll Learn
-- Pipeline design
-- GitOps workflows
+## Key Concepts
 - CI vs CD vs GitOps
-- Declarative vs scripted pipelines
+- Pipeline stages
+- Declarative pipelines
+- Rollbacks and approvals
 
-## Used In
+## Real-World Usage
 - Automated deployments
-- Cloud-native applications
-- DevOps & SRE teams
+- GitOps-based Kubernetes delivery
+
+## Interview Focus
+- Jenkins pipeline types
+- ArgoCD vs Jenkins

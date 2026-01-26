@@ -20,3 +20,21 @@ CD Tool (ArgoCD / Jenkins)
    |
    v
 Kubernetes / Cloud Server
+
+
+# 🔄 CI/CD Pipelines
+
+CI/CD automates build, test, and deployment workflows.
+
+👉 **Detailed notes:**  
+[CI/CD Cheatsheets](../CI-CD/README.md)
+
+## Tools
+- Jenkins
+- GitHub Actions
+- GitLab CI
+- ArgoCD
+- Tekton
+- Flux
+
+📌 **Interview Priority:** ⭐⭐⭐⭐⭐

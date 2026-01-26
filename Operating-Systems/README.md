@@ -1,14 +1,18 @@
-# 🐧 Linux & Operating Systems
+# 🐧 Operating Systems (Linux)
 
-Linux fundamentals required for DevOps engineers.
+Linux is the foundation of DevOps.
 
 ## Topics Covered
 - Linux commands
 - File systems
+- Permissions
+- Processes
 - Package management
 - SSH
-- Permissions & processes
+
+## Real-World Usage
+- Server administration
+- Troubleshooting
 
 ## Interview Focus
-⭐ Very high  
-Linux is asked in **every DevOps interview**
+⭐ Extremely high priority

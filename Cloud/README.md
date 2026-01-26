@@ -1,6 +1,6 @@
 # ☁️ Cloud Platforms
 
-Covers public cloud, private cloud, and virtualization platforms.
+This section covers public cloud, private cloud, and virtualization platforms.
 
 ## Platforms Covered
 - AWS
@@ -11,8 +11,16 @@ Covers public cloud, private cloud, and virtualization platforms.
 - Proxmox
 - Kubernetes on AWS
 
-## What You’ll Learn
+## Key Concepts
 - Compute, storage, networking
-- IAM & security
+- IAM and security
+- High availability
+- Scalability
+
+## Real-World Usage
+- Hosting applications
 - Cloud-native architectures
-- Hybrid & multi-cloud concepts
+
+## Interview Focus
+- AWS core services
+- VPC basics
