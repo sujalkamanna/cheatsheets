@@ -19,24 +19,58 @@ This repository is ideal for:
 
 ---
 
-## 📌 Index (Quick Navigation)
+## 📌 Quick Navigation
 
-* [Artifact Management](#-artifact-management)
-* [Backup & Recovery](#-backup--recovery)
-* [Build Tools](#-build-tools)
-* [CI/CD](#-cicd)
-* [Cloud](#-cloud)
-* [Containerization](#-containerization--orchestration)
-* [Databases](#-databases)
-* [Infrastructure Management](#-infrastructure-management)
-* [Message Queues](#-message-queues--streaming)
-* [Monitoring & Observability](#-monitoring-logging--tracing)
-* [Networking](#-networking--service-mesh)
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 🏗️ Infrastructure
 * [Operating Systems](#-operating-systems)
-* [Scripting](#-scripting--automation)
-* [Security](#-security--devsecops)
+* [Networking](#-networking--service-mesh)
 * [Version Control](#-version-control)
-* [Repository Tree](#-repository-structure-collapsible)
+* [Cloud](#-cloud)
+
+</td>
+<td align="center" width="25%">
+
+### 🚀 Build & Deploy
+* [CI/CD](#-cicd)
+* [Build Tools](#-build-tools)
+* [Artifact Management](#-artifact-management)
+* [Containerization](#-containerization--orchestration)
+
+</td>
+<td align="center" width="25%">
+
+### 📊 Observability
+* [Monitoring](#-monitoring-logging--tracing)
+* [Databases](#-databases)
+* [Message Queues](#-message-queues--streaming)
+* [Backup & Recovery](#-backup--recovery)
+
+</td>
+<td align="center" width="25%">
+
+### 🔒 Operations
+* [Infrastructure Management](#-infrastructure-management)
+* [Security](#-security--devsecops)
+* [Scripting](#-scripting--automation)
+* [Tools Reference](#-devops-tools-reference)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**🎯 Quick Links:** 
+[Learning Roadmap](#-devops-learning-roadmap) • 
+[Repository Structure](#-repository-structure) • 
+[Tools Guide](#-devops-tools-reference)
+
+</div>
+
 ---
 ## 🧭 DevOps Learning Roadmap
 
@@ -289,9 +323,99 @@ Follow this order for **maximum interview readiness**:
 * [`Bitbucket.md`](Version-Control/Bitbucket.md)
 
 ---
+## 📚 DevOps Tools Reference
 
-## 🌳 Repository Structure (Collapsible)
+Looking for the right tool for your DevOps workflow? Check out our comprehensive tools guide!
 
+<div align="center">
+
+### 🚀 [DevOps Tools Ecosystem Guide](https://github.com/sujalkamanna/scripts/blob/main/tools.md)
+
+**500+ Tools** | **All Categories** | **Licensing Info** | **Official Links**
+
+[![View Tools Guide](https://img.shields.io/badge/View-Tools_Guide-2ea44f?style=for-the-badge)](https://github.com/sujalkamanna/scripts/blob/main/tools.md)
+
+</div>
+
+---
+
+### 🌟 What's Inside the Tools Guide
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**📋 Categories Covered:**
+
+- 🐧 Operating Systems & Linux Distributions
+- 📝 Version Control Systems (Git, GitHub, GitLab, etc.)
+- 🔄 CI/CD Tools (Jenkins, GitHub Actions, GitLab CI, etc.)
+- 🐳 Containerization & Orchestration (Docker, Kubernetes, etc.)
+- 🏗️ Infrastructure as Code (Terraform, Pulumi, Ansible, etc.)
+- ☁️ Cloud Platforms (AWS, Azure, GCP, etc.)
+- 📊 Monitoring & Observability (Prometheus, Grafana, etc.)
+- 🔒 Security & DevSecOps (Trivy, Docker Scout, SonarQube, etc.)
+- 🔀 GitOps, MLOps, AIOps, and much more!
+
+</td>
+<td width="50%" valign="top">
+
+**✨ Key Features:**
+
+| Feature | Details |
+|---------|---------|
+| **Total Tools** | 500+ tools across 25+ categories |
+| **Licensing** | Free, Open Source, Freemium, Paid |
+| **Links** | Official websites and documentation |
+| **Comparisons** | Tool alternatives and comparisons |
+| **Toolchains** | Real-world implementation examples |
+
+<br/>
+
+**Perfect for:**
+- 🎯 Finding the right tool for your needs
+- 📊 Comparing alternatives
+- 💰 Understanding licensing options
+- 🔗 Quick access to official documentation
+
+</td>
+</tr>
+</table>
+
+> **💡 All tools include licensing information (Free/Open Source/Freemium/Paid) and official links**
+
+<div align="center">
+
+### **[📖 Explore Complete Tools Guide →](https://github.com/sujalkamanna/scripts/blob/main/tools.md)**
+
+</div>
+
+---
+
+<div align="center">
+
+### ✨ Key Improvements
+
+</div>
+
+**This combined version provides:**
+
+✅ **Better flow** - Quick Access → Repository Structure → Detailed Tools Guide  
+✅ **No duplication** - Removed redundant badges  
+✅ **Cleaner layout** - Two-column table for better organization  
+✅ **Consistent styling** - Unified badge styles  
+✅ **Better hierarchy** - Clear sections with proper headings  
+✅ **Visual balance** - Even distribution of content  
+✅ **Call-to-action** - Clear link to the tools guide at the end  
+
+<div align="center">
+
+*A professional, comprehensive overview while maintaining readability!* 🎯
+
+</div>
+
+---
+## 🌳 Repository Structure
 <details>
 <summary><strong>Click to expand full tree</strong></summary>
 
@@ -313,6 +437,7 @@ mastercheatsheet
 ├── Security
 ├── Version-Control
 ├── LICENSE
+├── tools.md
 └── README.md
 ```
 
