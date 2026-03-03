@@ -477,3 +477,7 @@ Contributions are welcome!
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
+
+
+# next give for npm , devops build tool , an devops tool, dont make the file too long but cover imp and necessary , hope you get it : )
