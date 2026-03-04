@@ -822,7 +822,7 @@ mvn clean install -U
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Maven Version:** 3.8.x+
 **License:** Apache License 2.0
 

@@ -982,7 +982,7 @@ java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Jenkins Version:** 2.x+
 **License:** MIT
 

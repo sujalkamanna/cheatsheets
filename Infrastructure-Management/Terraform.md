@@ -2456,7 +2456,7 @@ terraform.rc
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Terraform Version:** 1.6+
 **HCL Version:** 2.x
 

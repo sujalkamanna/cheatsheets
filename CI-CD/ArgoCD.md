@@ -916,7 +916,7 @@ argocd proj delete <name>
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **ArgoCD Version:** 2.x+
 **License:** Apache 2.0
 

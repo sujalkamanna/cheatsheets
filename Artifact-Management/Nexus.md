@@ -687,7 +687,7 @@ curl -u admin:password http://nexus:8081/service/rest/v1/components?repository=r
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Nexus Version:** 3.x+
 **License:** Open Source/Pro
 

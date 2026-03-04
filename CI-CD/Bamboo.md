@@ -708,7 +708,7 @@ test-result-parsers:
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Bamboo Version:** 9.x+
 **License:** Commercial/Free Trial
 

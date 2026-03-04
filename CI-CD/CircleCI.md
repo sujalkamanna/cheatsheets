@@ -1602,7 +1602,7 @@ steps:
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **CircleCI Version:** 2.1
 **License:** MIT
 

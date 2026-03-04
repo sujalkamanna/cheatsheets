@@ -786,7 +786,7 @@ deploy:
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **GitLab Version:** 14.x+
 **License:** SSPL/Open Source
 

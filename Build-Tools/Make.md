@@ -785,7 +785,7 @@ clean:
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Make Version:** 4.x+
 **License:** GNU General Public License
 

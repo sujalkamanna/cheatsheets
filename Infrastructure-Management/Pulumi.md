@@ -1254,7 +1254,7 @@ Cloud provider integration (AWS, Azure, GCP)
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Pulumi Version:** 3.x+
 **Python Version:** 3.6+
 

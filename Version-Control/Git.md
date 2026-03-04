@@ -1072,7 +1072,7 @@ git blame file.txt                        # Line-by-line authors
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Git Version:** 2.40+
 **Universal across all platforms**
 

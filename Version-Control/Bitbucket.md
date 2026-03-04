@@ -1164,7 +1164,7 @@ git checkout -- <file>                  # Discard changes
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Git Version:** 2.40+
 **Bitbucket Cloud**
 

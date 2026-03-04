@@ -1000,7 +1000,7 @@ helm pull oci://harbor.example.com/my-project/mychart --version 1.0.0
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Harbor Version:** 2.x+
 **License:** Apache 2.0 (Open Source)
 

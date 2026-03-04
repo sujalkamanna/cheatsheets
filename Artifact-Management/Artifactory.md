@@ -659,7 +659,7 @@ Artifactory UI → Artifacts → Search
 │   ├── Name: my-app*
 │   ├── Type: Artifact
 │   ├── Created: After 2023-01-01
-│   ├── Modified: Before 2024-01-01
+│   ├── Modified: Before 2026-01-01
 │   └── Search
 ```
 
@@ -1037,7 +1037,7 @@ curl -u admin:password -X POST \
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Artifactory Version:** 7.x+
 **License:** Commercial / Open Source (OSS)
 

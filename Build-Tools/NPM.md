@@ -950,7 +950,7 @@ audit-level=moderate
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **NPM Version:** 8.x+
 **Node.js Version:** 14.x+
 

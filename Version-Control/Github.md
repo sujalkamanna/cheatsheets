@@ -1071,7 +1071,7 @@ gh secret delete SECRET_NAME           # Delete secret
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **GitHub Product:** Latest
 **GitHub CLI Version:** 2.x+
 

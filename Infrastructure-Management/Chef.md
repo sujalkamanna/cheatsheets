@@ -1158,7 +1158,7 @@ Assign sets of recipes and attributes to nodes for consistent configuration.
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Chef Version:** 17.x+
 **Ruby Version:** 2.7+
 

@@ -1256,7 +1256,7 @@ Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of co
 
 <div align="center">
 
-## 📈 Trending DevOps Topics 2024
+## 📈 Trending DevOps Topics 2026
 
 </div>
 

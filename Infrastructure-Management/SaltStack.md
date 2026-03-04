@@ -1234,7 +1234,7 @@ Python modules extending Salt functionality
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **SaltStack Version:** 3.x+
 **Python Version:** 3.6+
 

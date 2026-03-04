@@ -1254,7 +1254,7 @@ aws cloudformation validate-template --template-body file://template.yaml
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **CloudFormation Version:** Latest
 **AWS CLI Version:** 2.x+
 

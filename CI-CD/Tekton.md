@@ -900,7 +900,7 @@ tkn task describe git-clone
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Tekton Version:** 0.50.x+
 **License:** Apache 2.0 (Open Source)
 

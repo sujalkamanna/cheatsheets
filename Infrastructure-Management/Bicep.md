@@ -1308,7 +1308,7 @@ output deploymentTime string = utcNow('u')
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Bicep Version:** 0.20+
 **Azure CLI Version:** 2.36+
 

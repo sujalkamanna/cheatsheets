@@ -858,7 +858,7 @@ gradlew.bat build    # Windows
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Gradle Version:** 7.6+
 **License:** Apache License 2.0
 

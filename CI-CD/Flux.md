@@ -765,7 +765,7 @@ flux logs --all-namespaces
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Flux Version:** 2.x+
 **License:** Apache 2.0
 

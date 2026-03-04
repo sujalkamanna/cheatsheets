@@ -1240,7 +1240,7 @@ Resources safe to apply multiple times without unintended changes
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Puppet Version:** 7.x+
 **Ruby Version:** 2.7+
 

@@ -1318,7 +1318,7 @@ ssh_args = -C -o ControlMaster=auto -o ControlPersist=60s
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 **Ansible Version:** 2.9+
 **Python Version:** 3.6+
 
