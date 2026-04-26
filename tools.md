@@ -277,27 +277,33 @@ If you find this guide helpful, please consider:
 
 ## 7. Container Orchestration
 
-| Tool                          | License            | Official Link                                                                                                       |
-| ----------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| **Kubernetes (K8s)**          | Free/Open Source   | [kubernetes.io](https://kubernetes.io/)                                                                             |
-| **OpenShift**                 | Freemium (Red Hat) | [openshift.com](https://www.openshift.com/)                                                                         |
-| **Amazon EKS**                | Paid (AWS)         | [aws.amazon.com/eks](https://aws.amazon.com/eks/)                                                                   |
-| **Google GKE**                | Paid (GCP)         | [cloud.google.com/kubernetes-engine](https://cloud.google.com/kubernetes-engine)                                    |
-| **Azure AKS**                 | Paid (Azure)       | [azure.microsoft.com/services/kubernetes-service](https://azure.microsoft.com/en-us/services/kubernetes-service/)   |
-| **Nomad**                     | Free/Open Source   | [nomadproject.io](https://www.nomadproject.io/)                                                                     |
-| **Docker Swarm**              | Free/Open Source   | [docs.docker.com/engine/swarm](https://docs.docker.com/engine/swarm/)                                               |
-| **Rancher**                   | Free/Open Source   | [rancher.com](https://rancher.com/)                                                                                 |
-| **K3s**                       | Free/Open Source   | [k3s.io](https://k3s.io/)                                                                                           |
-| **MicroK8s**                  | Free/Open Source   | [microk8s.io](https://microk8s.io/)                                                                                 |
-| **K0s**                       | Free/Open Source   | [k0sproject.io](https://k0sproject.io/)                                                                             |
-| **Kind**                      | Free/Open Source   | [kind.sigs.k8s.io](https://kind.sigs.k8s.io/)                                                                       |
-| **Minikube**                  | Free/Open Source   | [minikube.sigs.k8s.io](https://minikube.sigs.k8s.io/)                                                               |
-| **Amazon ECS**                | Paid (AWS)         | [aws.amazon.com/ecs](https://aws.amazon.com/ecs/)                                                                   |
-| **AWS Fargate**               | Paid (AWS)         | [aws.amazon.com/fargate](https://aws.amazon.com/fargate/)                                                           |
-| **Azure Container Instances** | Paid (Azure)       | [azure.microsoft.com/services/container-instances](https://azure.microsoft.com/en-us/services/container-instances/) |
-| **Google Cloud Run**          | Paid (GCP)         | [cloud.google.com/run](https://cloud.google.com/run)                                                                |
-| **Apache Mesos**              | Free/Open Source   | [mesos.apache.org](https://mesos.apache.org/)                                                                       |
+### Kubernetes Distributions & Tools
 
+| Tool | License | Official Link | Notes |
+|---|---|---|---|
+| **Kubernetes (K8s)** | Free/Open Source | [kubernetes.io](https://kubernetes.io/) | Core orchestration platform |
+| **OpenShift** | Freemium (Red Hat) | [openshift.com](https://www.openshift.com/) | Enterprise Kubernetes distribution |
+| **Amazon EKS** | Paid (AWS) | [aws.amazon.com/eks](https://aws.amazon.com/eks/) | AWS managed Kubernetes |
+| **Google GKE** | Paid (GCP) | [cloud.google.com/kubernetes-engine](https://cloud.google.com/kubernetes-engine) | GCP managed Kubernetes |
+| **Azure AKS** | Paid (Azure) | [azure.microsoft.com/services/kubernetes-service](https://azure.microsoft.com/en-us/services/kubernetes-service/) | Azure managed Kubernetes |
+| **Nomad** | Free/Open Source | [nomadproject.io](https://www.nomadproject.io/) | Flexible workload orchestrator |
+| **Docker Swarm** | Free/Open Source | [docs.docker.com/engine/swarm](https://docs.docker.com/engine/swarm/) | Built-in Docker orchestration |
+| **Rancher** | Free/Open Source | [rancher.com](https://rancher.com/) | Kubernetes management platform |
+| **K3s** | Free/Open Source | [k3s.io](https://k3s.io/) | Lightweight Kubernetes distribution |
+| **MicroK8s** | Free/Open Source | [microk8s.io](https://microk8s.io/) | Minimal Kubernetes for testing |
+| **K0s** | Free/Open Source | [k0sproject.io](https://k0sproject.io/) | Zero friction Kubernetes |
+| **Kind** | Free/Open Source | [kind.sigs.k8s.io](https://kind.sigs.k8s.io/) | Kubernetes in Docker |
+| **Minikube** | Free/Open Source | [minikube.sigs.k8s.io](https://minikube.sigs.k8s.io/) | Local Kubernetes development |
+| **OKD** | Free/Open Source | [okd.io](https://www.okd.io/) | Community-driven OpenShift |
+| **Kubespray** | Free/Open Source | [kubespray.io](https://kubespray.io/) | Kubernetes deployment automation |
+| **Karpenter** | Free/Open Source | [karpenter.sh](https://karpenter.sh/) | Kubernetes auto-scaling solution |
+| **Kubeadm** | Free/Open Source | [kubernetes.io/docs/reference/setup-tools/kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/) | Bootstrap Kubernetes clusters |
+| **Dex** | Free/Open Source | [dexidp.io](https://dexidp.io/) | OpenID Connect provider for K8s |
+| **Amazon ECS** | Paid (AWS) | [aws.amazon.com/ecs](https://aws.amazon.com/ecs/) | AWS container orchestration |
+| **AWS Fargate** | Paid (AWS) | [aws.amazon.com/fargate](https://aws.amazon.com/fargate/) | Serverless container execution |
+| **Azure Container Instances** | Paid (Azure) | [azure.microsoft.com/services/container-instances](https://azure.microsoft.com/en-us/services/container-instances/) | Serverless containers on Azure |
+| **Google Cloud Run** | Paid (GCP) | [cloud.google.com/run](https://cloud.google.com/run) | Serverless container execution |
+| **Apache Mesos** | Free/Open Source | [mesos.apache.org](https://mesos.apache.org/) | Distributed systems kernel |
 ---
 
 ## 8. Infrastructure as Code (IaC)
@@ -374,25 +380,65 @@ If you find this guide helpful, please consider:
 | **Cortex**          | Free/Open Source     | [cortexmetrics.io](https://cortexmetrics.io/)                               |
 | **Sensu**           | Freemium/Open Source | [sensu.io](https://sensu.io/)                                               |
 | **Checkmk**         | Freemium/Open Source | [checkmk.com](https://checkmk.com/)                                         |
+| **InfluxDB**        | Freemium/Open Source | [influxdata.com](https://www.influxdata.com/)                               |
+| **TimescaleDB**     | Freemium/Open Source | [timescale.com](https://www.timescale.com/)                                 |
+| **Graphite**        | Free/Open Source     | [graphiteapp.org](https://graphiteapp.org/)                                 |
+| **Mimir**           | Free/Open Source     | [grafana.com/oss/mimir](https://grafana.com/oss/mimir/)                     |
+| **QuestDB**         | Free/Open Source     | [questdb.io](https://questdb.io/)                                           |
 
 ### 📝 Logging
 
-| Tool                     | License              | Official Link                                                                               |
-| ------------------------ | -------------------- | ------------------------------------------------------------------------------------------- |
-| **Elasticsearch**        | Freemium/Open Source | [elastic.co/elasticsearch](https://www.elastic.co/elasticsearch/)                           |
-| **Logstash**             | Free/Open Source     | [elastic.co/logstash](https://www.elastic.co/logstash/)                                     |
-| **Kibana**               | Freemium/Open Source | [elastic.co/kibana](https://www.elastic.co/kibana/)                                         |
-| **Loki**                 | Free/Open Source     | [grafana.com/oss/loki](https://grafana.com/oss/loki/)                                       |
-| **Fluentd**              | Free/Open Source     | [fluentd.org](https://www.fluentd.org/)                                                     |
-| **Fluent Bit**           | Free/Open Source     | [fluentbit.io](https://fluentbit.io/)                                                       |
-| **Graylog**              | Freemium/Open Source | [graylog.org](https://www.graylog.org/)                                                     |
-| **Splunk**               | Paid                 | [splunk.com](https://www.splunk.com/)                                                       |
-| **AWS CloudWatch Logs**  | Paid (AWS)           | [aws.amazon.com/cloudwatch](https://aws.amazon.com/cloudwatch/)                             |
-| **Azure Monitor Logs**   | Paid (Azure)         | [azure.microsoft.com/services/monitor](https://azure.microsoft.com/en-us/services/monitor/) |
-| **Google Cloud Logging** | Paid (GCP)           | [cloud.google.com/logging](https://cloud.google.com/logging)                                |
-| **Papertrail**           | Freemium             | [papertrail.com](https://www.papertrail.com/)                                               |
-| **Loggly**               | Paid                 | [loggly.com](https://www.loggly.com/)                                                       |
-| **Sumo Logic**           | Paid                 | [sumologic.com](https://www.sumologic.com/)                                                 |
+#### ELK/EFK Stack Comparison
+
+| Feature | ELK Stack | EFK Stack |
+|---|---|---|
+| **Full Name** | Elasticsearch, Logstash, Kibana | Elasticsearch, Fluentd, Kibana |
+| **Middle Layer** | Logstash (L) | Fluentd (F) or Fluent Bit |
+| **Language** | JRuby (Java-based) | C & Ruby (Lightweight) |
+| **Resource Efficiency** | Lower (Higher CPU/Memory) | Higher (Lighter footprint) |
+| **Routing Style** | Procedural (if-then-else) | Declarative (Tag-based) |
+| **Kubernetes Fit** | Moderate | High (Native container support) |
+| **Reliability** | Requires external queue (Redis) | Built-in buffering and retries |
+| **Best For** | Complex data transformations | Cloud-native & Kubernetes |
+| **AWS EKS** | Moderate fit | High fit (Fluentd as DaemonSet) |
+| **License** | Freemium/Open Source | Free/Open Source |
+
+#### ELK Stack Components
+
+| Component | Purpose | Official Link |
+|---|---|---|
+| **Elasticsearch (E)** | Distributed NoSQL database & search engine (Apache Lucene-based) for indexing and fast retrieval | [elastic.co/elasticsearch](https://www.elastic.co/elasticsearch/) |
+| **Logstash (L)** | Server-side data processing pipeline for ingestion, filtering, and transformation from multiple sources | [elastic.co/logstash](https://www.elastic.co/logstash/) |
+| **Kibana (K)** | Web-based UI for visualization, dashboards, queries, and log analysis | [elastic.co/kibana](https://www.elastic.co/kibana/) |
+
+#### EFK Stack Components
+
+| Component | Purpose | Official Link |
+|---|---|---|
+| **Elasticsearch (E)** | Distributed NoSQL database & search engine (Apache Lucene-based) for indexing and fast retrieval | [elastic.co/elasticsearch](https://www.elastic.co/elasticsearch/) |
+| **Fluentd (F)** | Unified logging layer that decouples data sources from backend systems with tag-based routing | [fluentd.org](https://www.fluentd.org/) |
+| **Fluent Bit** | Lightweight alternative to Fluentd for edge computing and container deployments | [fluentbit.io](https://fluentbit.io/) |
+| **Kibana (K)** | Web-based UI for visualization, dashboards, queries, and log analysis | [elastic.co/kibana](https://www.elastic.co/kibana/) |
+
+#### Logging Tools
+
+| Tool | License | Official Link | Notes |
+|---|---|---|---|
+| **Elasticsearch** | Freemium/Open Source | [elastic.co/elasticsearch](https://www.elastic.co/elasticsearch/) | Core search & storage engine |
+| **Logstash** | Free/Open Source | [elastic.co/logstash](https://www.elastic.co/logstash/) | ELK stack middle layer - requires JRE |
+| **Kibana** | Freemium/Open Source | [elastic.co/kibana](https://www.elastic.co/kibana/) | Visualization for ELK/EFK |
+| **Fluentd** | Free/Open Source | [fluentd.org](https://www.fluentd.org/) | EFK stack middle layer - lightweight |
+| **Fluent Bit** | Free/Open Source | [fluentbit.io](https://fluentbit.io/) | Lightweight Fluentd alternative for K8s |
+| **Loki** | Free/Open Source | [grafana.com/oss/loki](https://grafana.com/oss/loki/) | Log aggregation from Grafana Labs |
+| **Graylog** | Freemium/Open Source | [graylog.org](https://www.graylog.org/) | Log collection, processing & analysis |
+| **Splunk** | Paid | [splunk.com](https://www.splunk.com/) | Enterprise log management & analytics |
+| **AWS CloudWatch Logs** | Paid (AWS) | [aws.amazon.com/cloudwatch](https://aws.amazon.com/cloudwatch/) | AWS-native logging service |
+| **Azure Monitor Logs** | Paid (Azure) | [azure.microsoft.com/services/monitor](https://azure.microsoft.com/en-us/services/monitor/) | Azure-native logging & analytics |
+| **Google Cloud Logging** | Paid (GCP) | [cloud.google.com/logging](https://cloud.google.com/logging) | GCP-native logging service |
+| **Papertrail** | Freemium | [papertrail.com](https://www.papertrail.com/) | SaaS log management platform |
+| **Loggly** | Paid | [loggly.com](https://www.loggly.com/) | Cloud-based logging platform |
+| **Sumo Logic** | Paid | [sumologic.com](https://www.sumologic.com/) | Cloud monitoring & logging analytics |
+| **Seq** | Freemium | [getseq.net](https://getseq.net/) | Structured event logging for .NET |
 
 ### 🔍 Tracing
 
@@ -423,6 +469,15 @@ If you find this guide helpful, please consider:
 | **Datadog APM**   | Paid                 | [datadoghq.com](https://www.datadoghq.com/)     |
 | **Dynatrace**     | Paid                 | [dynatrace.com](https://www.dynatrace.com/)     |
 
+### 📈 Real User Monitoring (RUM)
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Elastic RUM** | Freemium/Open Source | [elastic.co/apm](https://www.elastic.co/apm/) |
+| **Sentry RUM** | Freemium/Open Source | [sentry.io](https://sentry.io/) |
+| **Datadog RUM** | Paid | [datadoghq.com/rum](https://www.datadoghq.com/rum/) |
+| **New Relic Browser** | Paid | [newrelic.com](https://newrelic.com/) |
+
 ---
 
 ## 11. Security & DevSecOps
@@ -442,6 +497,9 @@ If you find this guide helpful, please consider:
 | **CodeQL**     | Free (GitHub)        | [codeql.github.com](https://codeql.github.com/)                                                                                                                 |
 | **Fortify**    | Paid                 | [microfocus.com/en-us/cyberres/application-security/static-code-analyzer](https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer)  |
 | **Coverity**   | Paid                 | [synopsys.com/software-integrity/security-testing/static-analysis-sast](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) |
+| **Qodana**     | Freemium             | [jetbrains.com/qodana](https://www.jetbrains.com/qodana/)                                                                                                       |
+| **Infer**      | Free/Open Source     | [fbinfer.com](https://fbinfer.com/)                                                                                                                             |
+| **LGTM**       | Free                 | [lgtm.com](https://lgtm.com/)                                                                                                                                   |
 
 ### 🌐 DAST (Dynamic Application Security Testing)
 
@@ -452,6 +510,8 @@ If you find this guide helpful, please consider:
 | **Acunetix**   | Paid             | [acunetix.com](https://www.acunetix.com/)                  |
 | **Netsparker** | Paid             | [netsparker.com](https://www.netsparker.com/)              |
 | **AppScan**    | Paid             | [hcltechsw.com/appscan](https://www.hcltechsw.com/appscan) |
+| **Nikto**      | Free/Open Source | [cirt.net/Nikto2](https://cirt.net/Nikto2)                 |
+| **w3af**       | Free/Open Source | [w3af.org](http://w3af.org/)                               |
 
 ### 🐳 Container/Image Scanning
 
@@ -478,6 +538,9 @@ If you find this guide helpful, please consider:
 | **WhiteSource (Mend)**     | Paid             | [mend.io](https://www.mend.io/)                                                                                                                                                   |
 | **Black Duck**             | Paid             | [synopsys.com/software-integrity/security-testing/software-composition-analysis](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html) |
 | **Renovate**               | Free/Open Source | [renovatebot.com](https://www.renovatebot.com/)                                                                                                                                   |
+| **Safety**                 | Freemium         | [safetycli.com](https://safetycli.com/)                                                                                                                                           |
+| **pip-audit**              | Free/Open Source | [github.com/pypa/pip-audit](https://github.com/pypa/pip-audit)                                                                                                                    |
+| **npm audit**              | Free             | [docs.npmjs.com/cli/audit](https://docs.npmjs.com/cli/audit)                                                                                                                      |
 
 ### 🔐 Secrets Management
 
@@ -508,6 +571,7 @@ If you find this guide helpful, please consider:
 | **Cloud Custodian**         | Free/Open Source | [cloudcustodian.io](https://cloudcustodian.io/)                          |
 | **Prowler**                 | Free/Open Source | [prowler.pro](https://prowler.pro/)                                      |
 | **ScoutSuite**              | Free/Open Source | [github.com/nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite) |
+| **Compliance Operator**     | Free/Open Source | [github.com/openshift/compliance-operator](https://github.com/openshift/compliance-operator) |
 
 ### 🛡️ Vulnerability Management
 
@@ -529,6 +593,29 @@ If you find this guide helpful, please consider:
 | **Sysdig Secure**      | Paid             | [sysdig.com/products/secure](https://sysdig.com/products/secure/)                                                                                                                                  |
 | **StackRox (Red Hat)** | Paid             | [redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes) |
 | **Tracee**             | Free/Open Source | [aquasecurity.github.io/tracee](https://aquasecurity.github.io/tracee/)                                                                                                                            |
+
+### 🔍 Network Security & Scanning
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Nuclei** | Free/Open Source | [projectdiscovery.io/nuclei](https://projectdiscovery.io/nuclei/) |
+| **nmap** | Free/Open Source | [nmap.org](https://nmap.org/) |
+| **Metasploit** | Freemium/Open Source | [metasploit.com](https://www.metasploit.com/) |
+| **Shodan** | Freemium | [shodan.io](https://www.shodan.io/) |
+
+### 🔐 Infrastructure Security
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Teleport** | Freemium/Open Source | [goteleport.com](https://goteleport.com/) |
+| **Boundary** | Freemium/Open Source | [boundaryproject.io](https://www.boundaryproject.io/) |
+
+### 📋 IaC Security Scanning
+
+| Tool | License | Official Link |
+|---|---|---|
+| **CloudMapper** | Free/Open Source | [github.com/duo-labs/cloudmapper](https://github.com/duo-labs/cloudmapper) |
+| **CloudSploit** | Free/Open Source | [cloudsploit.com](https://cloudsploit.com/) |
 
 ---
 
@@ -559,7 +646,7 @@ If you find this guide helpful, please consider:
 | **Open Service Mesh**   | Free/Open Source     | [openservicemesh.io](https://openservicemesh.io/)            |
 | **Cilium Service Mesh** | Free/Open Source     | [cilium.io](https://cilium.io/)                              |
 
-### 🔍 Service Discovery
+### 🔌 Service Discovery
 
 | Tool          | License              | Official Link                                                  |
 | ------------- | -------------------- | -------------------------------------------------------------- |
@@ -576,6 +663,14 @@ If you find this guide helpful, please consider:
 | **Bind9**    | Free/Open Source | [isc.org/bind](https://www.isc.org/bind/)                                  |
 | **dnsmasq**  | Free/Open Source | [thekelleys.org.uk/dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) |
 | **PowerDNS** | Free/Open Source | [powerdns.com](https://www.powerdns.com/)                                  |
+
+### 🌍 eBPF & Network Observability
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Cilium** | Free/Open Source | [cilium.io](https://cilium.io/) |
+| **Hubble** | Free/Open Source | [github.com/cilium/hubble](https://github.com/cilium/hubble) |
+| **Beyla** | Free/Open Source | [grafana.com/oss/beyla](https://grafana.com/oss/beyla/) |
 
 ### 🚪 API Gateway
 
@@ -651,6 +746,8 @@ If you find this guide helpful, please consider:
 | **Amazon SageMaker**       | Paid (AWS)       | [aws.amazon.com/sagemaker](https://aws.amazon.com/sagemaker/)                                                 |
 | **Azure Machine Learning** | Paid (Azure)     | [azure.microsoft.com/services/machine-learning](https://azure.microsoft.com/en-us/services/machine-learning/) |
 | **Google Vertex AI**       | Paid (GCP)       | [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)                                              |
+| **Ray Serve**              | Free/Open Source | [docs.ray.io/ray-serve](https://docs.ray.io/ray-serve)                                                        |
+| **vLLM**                   | Free/Open Source | [vllm.ai](https://vllm.ai/)                                                                                   |
 
 ### 🔄 ML Pipelines
 
@@ -711,24 +808,76 @@ If you find this guide helpful, please consider:
 | **Arize AI**     | Freemium         | [arize.com](https://arize.com/)                                |
 | **Seldon Alibi** | Free/Open Source | [github.com/SeldonIO/alibi](https://github.com/SeldonIO/alibi) |
 
+### 📚 Data Labeling & Annotation
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Label Studio** | Free/Open Source | [labelstudio.ai](https://labelstudio.ai/) |
+| **Roboflow** | Freemium | [roboflow.com](https://roboflow.com/) |
+| **Prodigy** | Paid | [prodi.gy](https://prodi.gy/) |
+| **Amazon SageMaker Ground Truth** | Paid (AWS) | [aws.amazon.com/sagemaker/groundtruth](https://aws.amazon.com/sagemaker/groundtruth/) |
+
+### ✅ Data Quality & Validation
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Great Expectations** | Free/Open Source | [greatexpectations.io](https://greatexpectations.io/) |
+| **Pandera** | Free/Open Source | [pandera.readthedocs.io](https://pandera.readthedocs.io/) |
+| **Soda** | Freemium/Open Source | [soda.io](https://www.soda.io/) |
+| **Validio** | Paid | [validio.io](https://validio.io/) |
+
+### 🚀 Distributed Computing & Execution
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Ray** | Free/Open Source | [ray.io](https://www.ray.io/) |
+| **Dask** | Free/Open Source | [dask.org](https://dask.org/) |
+| **Apache Spark** | Free/Open Source | [spark.apache.org](https://spark.apache.org/) |
+| **Modin** | Free/Open Source | [modin.readthedocs.io](https://modin.readthedocs.io/) |
+
+### 🤗 Model Hubs & Repositories
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Hugging Face Hub** | Free/Open Source | [huggingface.co](https://huggingface.co/) |
+| **Model Zoo** | Free/Open Source | [modelzoo.org](https://modelzoo.org/) |
+| **TensorFlow Hub** | Free/Open Source | [tfhub.dev](https://tfhub.dev/) |
+| **PyTorch Hub** | Free/Open Source | [pytorch.org/hub](https://pytorch.org/hub/) |
+
+### 📊 Model Explainability & Interpretability
+
+| Tool | License | Official Link |
+|---|---|---|
+| **SHAP** | Free/Open Source | [shap.readthedocs.io](https://shap.readthedocs.io/) |
+| **LIME** | Free/Open Source | [github.com/marcotcr/lime](https://github.com/marcotcr/lime) |
+| **Captum** | Free/Open Source | [captum.ai](https://captum.ai/) |
+| **Alibi Explain** | Free/Open Source | [github.com/SeldonIO/alibi](https://github.com/SeldonIO/alibi) |
+
+### 🔄 LLMOps (Large Language Model Operations)
+
+| Tool | License | Official Link |
+|---|---|---|
+| **LangChain** | Free/Open Source | [langchain.com](https://www.langchain.com/) |
+| **LlamaIndex** | Free/Open Source | [llamaindex.ai](https://www.llamaindex.ai/) |
+| **Prompt Flow** | Free/Open Source | [microsoft.github.io/promptflow](https://microsoft.github.io/promptflow/) |
+| **OpenLLM** | Free/Open Source | [bentoml.com/openllm](https://www.bentoml.com/openllm) |
+
 ---
 
 ## 16. AIOps (AI for IT Operations)
 
-| Tool                               | License              | Official Link                                                                                                           |
-| ---------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Moogsoft**                       | Paid                 | [moogsoft.com](https://www.moogsoft.com/)                                                                               |
-| **BigPanda**                       | Paid                 | [bigpanda.io](https://www.bigpanda.io/)                                                                                 |
-| **Dynatrace (Davis AI)**           | Paid                 | [dynatrace.com](https://www.dynatrace.com/)                                                                             |
-| **Splunk IT Service Intelligence** | Paid                 | [splunk.com/en_us/software/it-service-intelligence](https://www.splunk.com/en_us/software/it-service-intelligence.html) |
-| **IBM Watson AIOps**               | Paid                 | [ibm.com/cloud/watson-aiops](https://www.ibm.com/cloud/watson-aiops)                                                    |
-| **Elastic Observability**          | Freemium/Open Source | [elastic.co/observability](https://www.elastic.co/observability)                                                        |
-| **Datadog AI**                     | Paid                 | [datadoghq.com](https://www.datadoghq.com/)                                                                             |
-| **New Relic AI**                   | Paid                 | [newrelic.com](https://newrelic.com/)                                                                                   |
-| **PagerDuty AIOps**                | Paid                 | [pagerduty.com/platform/aiops](https://www.pagerduty.com/platform/aiops/)                                               |
-| **LogicMonitor**                   | Paid                 | [logicmonitor.com](https://www.logicmonitor.com/)                                                                       |
-
----
+| Tool | License | Official Link | Purpose |
+|---|---|---|---|
+| **Moogsoft** | Paid | [moogsoft.com](https://www.moogsoft.com/) | AI-driven alert correlation & incident management |
+| **BigPanda** | Paid | [bigpanda.io](https://www.bigpanda.io/) | Event correlation & automated incident response |
+| **Opsgenie AI** | Paid | [atlassian.com/software/opsgenie](https://www.atlassian.com/software/opsgenie) | Intelligent alert & incident management |
+| **LogicMonitor** | Paid | [logicmonitor.com](https://www.logicmonitor.com/) | Predictive monitoring & analytics |
+| **Anodot** | Paid | [anodot.com](https://www.anodot.com/) | Real-time anomaly detection |
+| **Zebrium** | Paid | [zebrium.com](https://www.zebrium.com/) | Automated root cause analysis |
+| **Elastic Observability** | Freemium/Open Source | [elastic.co/observability](https://www.elastic.co/observability) | AI-powered observability |
+| **Datadog AI** | Paid | [datadoghq.com](https://www.datadoghq.com/) | AI-driven monitoring & analytics |
+| **New Relic AI** | Paid | [newrelic.com](https://newrelic.com/) | Intelligent observability |
+| **PagerDuty AIOps** | Paid | [pagerduty.com/platform/aiops](https://www.pagerduty.com/platform/aiops/) | AI-enhanced incident response |
 
 ## 17. Collaboration & Incident Management
 
@@ -948,18 +1097,23 @@ If you find this guide helpful, please consider:
 
 ## 23. Code Quality & Analysis
 
-| Tool            | License              | Official Link                               |
-| --------------- | -------------------- | ------------------------------------------- |
-| **SonarQube**   | Freemium/Open Source | [sonarqube.org](https://www.sonarqube.org/) |
-| **SonarCloud**  | Freemium             | [sonarcloud.io](https://sonarcloud.io/)     |
-| **CodeClimate** | Freemium             | [codeclimate.com](https://codeclimate.com/) |
-| **Codacy**      | Freemium             | [codacy.com](https://www.codacy.com/)       |
-| **DeepSource**  | Freemium             | [deepsource.io](https://deepsource.io/)     |
-| **ESLint**      | Free/Open Source     | [eslint.org](https://eslint.org/)           |
-| **Pylint**      | Free/Open Source     | [pylint.org](https://pylint.org/)           |
-| **RuboCop**     | Free/Open Source     | [rubocop.org](https://rubocop.org/)         |
-| **Checkstyle**  | Free/Open Source     | [checkstyle.org](https://checkstyle.org/)   |
-| **PMD**         | Free/Open Source     | [pmd.github.io](https://pmd.github.io/)     |
+| Tool        | License              | Official Link                                                            |
+| ----------- | -------------------- | ------------------------------------------------------------------------ |
+| SonarQube   | Freemium/Open Source | [https://www.sonarqube.org/](https://www.sonarqube.org/)                 |
+| SonarCloud  | Freemium             | [https://sonarcloud.io/](https://sonarcloud.io/)                         |
+| CodeClimate | Freemium             | [https://codeclimate.com/](https://codeclimate.com/)                     |
+| Codacy      | Freemium             | [https://www.codacy.com/](https://www.codacy.com/)                       |
+| DeepSource  | Freemium             | [https://deepsource.io/](https://deepsource.io/)                         |
+| ESLint      | Free/Open Source     | [https://eslint.org/](https://eslint.org/)                               |
+| Pylint      | Free/Open Source     | [https://pylint.org/](https://pylint.org/)                               |
+| RuboCop     | Free/Open Source     | [https://rubocop.org/](https://rubocop.org/)                             |
+| Checkstyle  | Free/Open Source     | [https://checkstyle.org/](https://checkstyle.org/)                       |
+| PMD         | Free/Open Source     | [https://pmd.github.io/](https://pmd.github.io/)                         |
+| Snyk Code   | Freemium             | [https://snyk.io/product/snyk-code/](https://snyk.io/product/snyk-code/) |
+| Qodana      | Freemium             | [https://www.jetbrains.com/qodana/](https://www.jetbrains.com/qodana/)   |
+| Infer       | Free/Open Source     | [https://fbinfer.com/](https://fbinfer.com/)                             |
+| LGTM        | Free                 | [https://lgtm.com/](https://lgtm.com/)                                   |
+| Fortify SCA | Paid                 | [https://www.microfocus.com/](https://www.microfocus.com/)               |
 
 ---
 
@@ -1061,6 +1215,145 @@ graph LR
 **Stack:** Cloud Source Repositories → Cloud Build → Terraform → GKE → Cloud Monitoring → Cloud Logging
 
 ---
+
+## 25. API Development & Documentation
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Swagger/OpenAPI** | Free/Open Source | [swagger.io](https://swagger.io/) |
+| **Postman** | Freemium | [postman.com](https://www.postman.com/) |
+| **Insomnia** | Freemium/Open Source | [insomnia.rest](https://insomnia.rest/) |
+| **API Blueprint** | Free/Open Source | [apiblueprint.org](https://apiblueprint.org/) |
+| **GraphQL** | Free/Open Source | [graphql.org](https://graphql.org/) |
+| **gRPC** | Free/Open Source | [grpc.io](https://grpc.io/) |
+| **Kong Developer Portal** | Freemium/Open Source | [konghq.com](https://konghq.com/) |
+| **Swagger UI** | Free/Open Source | [swagger.io/tools/swagger-ui](https://swagger.io/tools/swagger-ui/) |
+| **ReDoc** | Free/Open Source | [redoc.ly](https://redoc.ly/) |
+
+---
+
+
+## 26. Database Tools & Management
+
+| Tool | License | Official Link |
+|---|---|---|
+| **pgAdmin** | Free/Open Source | [pgadmin.org](https://www.pgadmin.org/) |
+| **DBeaver** | Freemium/Open Source | [dbeaver.io](https://dbeaver.io/) |
+| **Adminer** | Free/Open Source | [adminer.org](https://www.adminer.org/) |
+| **DataGrip** | Paid | [jetbrains.com/datagrip](https://www.jetbrains.com/datagrip/) |
+| **HeidiSQL** | Free/Open Source | [heidisql.com](https://www.heidisql.com/) |
+| **Navicat** | Paid | [navicat.com](https://www.navicat.com/) |
+| **SQLAlchemy** | Free/Open Source | [sqlalchemy.org](https://www.sqlalchemy.org/) |
+
+---
+
+## 27. Event Streaming & Message Brokers
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Apache Kafka** | Free/Open Source | [kafka.apache.org](https://kafka.apache.org/) |
+| **RabbitMQ** | Free/Open Source | [rabbitmq.com](https://www.rabbitmq.com/) |
+| **Apache Pulsar** | Free/Open Source | [pulsar.apache.org](https://pulsar.apache.org/) |
+| **AWS Kinesis** | Paid (AWS) | [aws.amazon.com/kinesis](https://aws.amazon.com/kinesis/) |
+| **Google Cloud Pub/Sub** | Paid (GCP) | [cloud.google.com/pubsub](https://cloud.google.com/pubsub) |
+| **Azure Service Bus** | Paid (Azure) | [azure.microsoft.com/services/service-bus](https://azure.microsoft.com/en-us/services/service-bus/) |
+| **NATS** | Free/Open Source | [nats.io](https://nats.io/) |
+| **Redis Streams** | Free/Open Source | [redis.io](https://redis.io/) |
+
+---
+
+## 28. Serverless & FaaS
+
+| Tool | License | Official Link |
+|---|---|---|
+| **AWS Lambda** | Paid (AWS) | [aws.amazon.com/lambda](https://aws.amazon.com/lambda/) |
+| **Google Cloud Functions** | Paid (GCP) | [cloud.google.com/functions](https://cloud.google.com/functions) |
+| **Azure Functions** | Paid (Azure) | [azure.microsoft.com/services/functions](https://azure.microsoft.com/en-us/services/functions/) |
+| **OpenFaaS** | Free/Open Source | [openfaas.com](https://www.openfaas.com/) |
+| **Knative** | Free/Open Source | [knative.dev](https://knative.dev/) |
+| **Fn Project** | Free/Open Source | [fnproject.io](https://fnproject.io/) |
+| **Fission** | Free/Open Source | [fission.io](https://fission.io/) |
+
+---
+
+## 29. Vulnerability Management
+
+| Tool | License | Official Link |
+|---|---|---|
+| **CVSS Calculator** | Free | [first.org/cvss/calculator/3.1](https://www.first.org/cvss/calculator/3.1) |
+| **Dependabot** | Free (GitHub) | [github.com/dependabot](https://github.com/dependabot) |
+| **npm audit** | Free | [docs.npmjs.com/cli/audit](https://docs.npmjs.com/cli/audit) |
+| **pip-audit** | Free/Open Source | [github.com/pypa/pip-audit](https://github.com/pypa/pip-audit) |
+
+---
+
+## 30. Compliance & Audit
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Compliance Operator** | Free/Open Source | [github.com/openshift/compliance-operator](https://github.com/openshift/compliance-operator) |
+| **Auditbeat** | Free/Open Source | [elastic.co/auditbeat](https://www.elastic.co/auditbeat/) |
+| **Osquery** | Free/Open Source | [osquery.io](https://osquery.io/) |
+| **Lynis** | Free/Open Source | [cisofy.com/lynis](https://cisofy.com/lynis/) |
+
+---
+
+## 31. Capacity Planning & Resource Optimization
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Kubecost** | Freemium/Open Source | [kubecost.com](https://www.kubecost.com/) |
+| **OpenCost** | Free/Open Source | [opencost.io](https://www.opencost.io/) |
+| **Infracost** | Freemium/Open Source | [infracost.io](https://www.infracost.io/) |
+| **Keptn** | Free/Open Source | [keptn.sh](https://keptn.sh/) |
+| **Prometheus Node Exporter** | Free/Open Source | [github.com/prometheus/node_exporter](https://github.com/prometheus/node_exporter) |
+
+---
+
+## 32. Chaos Engineering
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Chaos Toolkit** | Free/Open Source | [chaostoolkit.org](https://chaostoolkit.org/) |
+| **Gremlin** | Freemium | [gremlin.com](https://www.gremlin.com/) |
+| **LitmusChaos** | Free/Open Source | [litmuschaos.io](https://litmuschaos.io/) |
+| **Pumba** | Free/Open Source | [github.com/alexei-led/pumba](https://github.com/alexei-led/pumba) |
+| **Chaos Mesh** | Free/Open Source | [chaos-mesh.org](https://chaos-mesh.org/) |
+| **PowerfulSeal** | Free/Open Source | [powerfulseal.io](https://powerfulseal.io/) |
+
+---
+
+## 33. Progressive Delivery & Canary Deployments
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Flagger** | Free/Open Source | [flagger.app](https://flagger.app/) |
+| **LaunchDarkly** | Paid | [launchdarkly.com](https://launchdarkly.com/) |
+| **Split.io** | Paid | [split.io](https://www.split.io/) |
+| **Harness** | Paid | [harness.io](https://www.harness.io/) |
+| **CloudBees Rollout** | Paid | [cloudbees.com/rollout](https://www.cloudbees.com/rollout) |
+
+---
+
+## 34. Runtime Configuration Management
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Consul** | Freemium/Open Source | [consul.io](https://www.consul.io/) |
+| **etcd** | Free/Open Source | [etcd.io](https://etcd.io/) |
+| **Spring Cloud Config** | Free/Open Source | [spring.io/projects/spring-cloud-config](https://spring.io/projects/spring-cloud-config) |
+| **Apollo Config** | Free/Open Source | [github.com/apolloconfig/apollo](https://github.com/apolloconfig/apollo) |
+
+---
+
+## 35. Runtime Configuration Management
+
+| Tool | License | Official Link |
+|---|---|---|
+| **Consul** | Freemium/Open Source | [consul.io](https://www.consul.io/) |
+| **etcd** | Free/Open Source | [etcd.io](https://etcd.io/) |
+| **Spring Cloud Config** | Free/Open Source | [spring.io/projects/spring-cloud-config](https://spring.io/projects/spring-cloud-config) |
+| **Apollo Config** | Free/Open Source | [github.com/apolloconfig/apollo](https://github.com/apolloconfig/apollo) |
 
 ## 📊 Summary Table by Category
 
