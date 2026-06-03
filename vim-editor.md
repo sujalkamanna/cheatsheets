@@ -2,11 +2,6 @@
 
 ## 📌 Table of Contents
 
-- [📘 VimTutor Notes (Unofficial Learning Guide)](#-vimtutor-notes-unofficial-learning-guide)
-  - [📌 Table of Contents](#-table-of-contents)
-  - [📎 Official Documentation](#-official-documentation)
-  - [📎 Official Documentation, Attribution, Copyright \& Disclaimer](#-official-documentation-attribution-copyright--disclaimer)
-    - [📖 Official Vim Documentation \& References](#-official-vim-documentation--references)
   - [🟢 Lesson 1 — Basics](#-lesson-1--basics)
     - [⌨️ 1.1 Move Cursor (h j k l)](#️-11-move-cursor-h-j-k-l)
     - [🚀 1.2 Start Vim / vimtutor](#-12-start-vim--vimtutor)
@@ -17,6 +12,7 @@
     - [🔁 1.7 Normal Mode (Esc)](#-17-normal-mode-esc)
     - [🎯 Lesson 1 Goal](#-lesson-1-goal)
     - [📌 Key Summary](#-key-summary)
+
 - [🟡 Lesson 2 — Editing Basics](#-lesson-2--editing-basics)
   - [2.1 Delete Word (dw)](#21-delete-word-dw)
   - [2.2 Delete to End of Line (d$)](#22-delete-to-end-of-line-d)
@@ -28,6 +24,7 @@
   - [🎯 Lesson 2 Goal](#-lesson-2-goal)
   - [📌 Lesson 2 Summary](#-lesson-2-summary)
     - [Key Idea](#key-idea)
+
 - [🔵 VimTutor — Lesson 3: Put, Replace, and Change](#-vimtutor--lesson-3-put-replace-and-change)
   - [3.1 The Put Command](#31-the-put-command)
     - [Example](#example)
@@ -45,6 +42,7 @@
   - [🎯 Lesson 3 Goal](#-lesson-3-goal)
   - [📌 Lesson 3 Summary](#-lesson-3-summary)
   - [Key Idea](#key-idea-1)
+
 - [🟣 VimTutor — Lesson 4: Search, Jump, and Substitute](#-vimtutor--lesson-4-search-jump-and-substitute)
   - [4.1 Cursor Location and File Status](#41-cursor-location-and-file-status)
     - [Navigate Through a File](#navigate-through-a-file)
@@ -69,6 +67,7 @@
   - [🎯 Lesson 4 Goal](#-lesson-4-goal)
   - [📌 Lesson 4 Summary](#-lesson-4-summary)
   - [Key Commands to Remember](#key-commands-to-remember)
+
 - [🔴 VimTutor — Lesson 5: External Commands and Files](#-vimtutor--lesson-5-external-commands-and-files)
   - [5.1 Run External Commands](#51-run-external-commands)
     - [Examples](#examples)
@@ -87,6 +86,7 @@
   - [🎯 Lesson 5 Goal](#-lesson-5-goal)
   - [📌 Lesson 5 Summary](#-lesson-5-summary)
   - [Key Commands to Remember](#key-commands-to-remember-1)
+
 - [🟠 VimTutor — Lesson 6: Open, Copy, Replace, and Settings](#-vimtutor--lesson-6-open-copy-replace-and-settings)
   - [6.1 Open a New Line](#61-open-a-new-line)
     - [Example](#example-11)
@@ -117,6 +117,7 @@
   - [🎯 Lesson 6 Goal](#-lesson-6-goal)
   - [📌 Lesson 6 Summary](#-lesson-6-summary)
   - [Key Commands to Remember](#key-commands-to-remember-2)
+
 - [⚫ VimTutor — Lesson 7: Help, Configuration, and Completion](#-vimtutor--lesson-7-help-configuration-and-completion)
   - [7.1 Open the Help System](#71-open-the-help-system)
     - [Why Vim Help Is Important](#why-vim-help-is-important)
@@ -137,46 +138,17 @@
     - [Examples](#examples-3)
   - [Example Workflow](#example-workflow-3)
   - [🎯 Lesson 7 Goal](#-lesson-7-goal)
-- [📌 Lesson 7 Summary](#-lesson-7-summary)
-  - [Key Commands to Remember](#key-commands-to-remember-3)
-  - [🎉 Congratulations!](#-congratulations)
-    - [Recommended Next Topics](#recommended-next-topics)
-  - [📎 Official Documentation, Attribution, Copyright \& Disclaimer](#-official-documentation-attribution-copyright--disclaimer-1)
-    - [📖 Official Vim Documentation \& References](#-official-vim-documentation--references-1)
-    - [📘 Nature of This Document](#-nature-of-this-document)
-    - [⚖️ Copyright \& Ownership Notice](#️-copyright--ownership-notice)
-    - [🚫 Non-Affiliation \& No Endorsement Statement](#-non-affiliation--no-endorsement-statement)
-    - [📌 Usage Terms \& Responsibility Disclaimer](#-usage-terms--responsibility-disclaimer)
-    - [🧠 Best Practice Recommendations](#-best-practice-recommendations)
-    - [📜 Licensing Understanding (Informational Only)](#-licensing-understanding-informational-only)
-    - [🧾 Final Statement](#-final-statement)
+  - [📌 Lesson 7 Summary](#-lesson-7-summary)
 
----
-## 📎 Official Documentation
-
-The following resources provide authoritative and up-to-date information about Vim:
-
-* [Vim Help System (built-in `:help`)](https://vimhelp.org/)
-* [Vim Reference Manual Index](https://vim-jp.org/vimdoc-en/vimindex.html)
-* [Vim Documentation Overview](https://www.vim.org/docs.php)
-* [Official Vim Website](https://www.vim.org/)
-
----
-
-## 📎 Official Documentation, Attribution, Copyright & Disclaimer
-
-### 📖 Official Vim Documentation & References
-
-This document is based on publicly available official sources and standard Vim behavior. The primary references include:
-
-* Vim Official Website: https://www.vim.org
-* Built-in Vim Help System (`:help`)
-* Vim User Manual: https://vimhelp.org
-* Vim Reference Manual: https://vimhelp.org
-* Ubuntu Documentation: https://help.ubuntu.com
-
-...
-
+- [📎 Official Documentation, Attribution, Copyright & Disclaimer](#-official-documentation-attribution-copyright--disclaimer)
+  - [📖 Official Vim Documentation & References](#-official-vim-documentation--references)
+  - [📘 Nature of This Document](#-nature-of-this-document)
+  - [⚖️ Copyright & Ownership Notice](#️-copyright--ownership-notice)
+  - [🚫 Non-Affiliation & No Endorsement Statement](#-non-affiliation--no-endorsement-statement)
+  - [📌 Usage Terms & Responsibility Disclaimer](#-usage-terms--responsibility-disclaimer)
+  - [🧠 Best Practice Recommendations](#-best-practice-recommendations)
+  - [📜 Licensing Understanding (Informational Only)](#-licensing-understanding-informational-only)
+  - [🧾 Final Statement](#-final-statement)
 
 ---
 
