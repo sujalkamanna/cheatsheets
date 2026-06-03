@@ -2,6 +2,11 @@
 
 ## 📌 Table of Contents
 
+- [📘 VimTutor Notes (Unofficial Learning Guide)](#-vimtutor-notes-unofficial-learning-guide)
+  - [📌 Table of Contents](#-table-of-contents)
+  - [📎 Official Documentation](#-official-documentation)
+  - [📎 Official Documentation, Attribution, Copyright \& Disclaimer](#-official-documentation-attribution-copyright--disclaimer)
+    - [📖 Official Vim Documentation \& References](#-official-vim-documentation--references)
   - [🟢 Lesson 1 — Basics](#-lesson-1--basics)
     - [⌨️ 1.1 Move Cursor (h j k l)](#️-11-move-cursor-h-j-k-l)
     - [🚀 1.2 Start Vim / vimtutor](#-12-start-vim--vimtutor)
