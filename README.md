@@ -478,6 +478,17 @@ Contributions are welcome!
 
 This project is licensed under the **MIT License**.
 
+## Legal & Attribution
 
+This repository is provided for educational and informational purposes.
+
+Please review the following documents before using any content, scripts, configurations, or examples from this repository:
+
+- [LICENSE](LICENSE)
+- [NOTICE](NOTICE)
+- [DISCLAIMER](DISCLAIMER.md)
+- [Copyright](Copyright.md)
+
+Third-party technologies, trademarks, software products, documentation, and external resources referenced throughout this repository remain the property of their respective owners.
 
 # next give for npm , devops build tool , an devops tool, dont make the file too long but cover imp and necessary , hope you get it : )
