@@ -428,13 +428,14 @@ git diff                            # Shows all conflicts
 # 4. Save file
 
 # Example conflict
-<<<<<<< HEAD (current branch)
-Feature from current branch
-=======
-Feature from merging branch
->>>>>>> feature/user-auth
+# <<<<<<< HEAD (current branch)
+# Feature from current branch
 
+# =======
+# Feature from merging branch
+# >>>>>>> feature/user-auth
 # Mark as resolved
+
 git add conflicted-file.txt
 
 # Complete merge
